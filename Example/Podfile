@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'YHNetWork_Example' do
+  pod 'YHNetWork', :path => '../'
+
+  target 'YHNetWork_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end

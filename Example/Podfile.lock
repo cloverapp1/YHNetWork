@@ -1,0 +1,49 @@
+PODS:
+  - AFNetworking (3.2.0):
+    - AFNetworking/NSURLSession (= 3.2.0)
+    - AFNetworking/Reachability (= 3.2.0)
+    - AFNetworking/Security (= 3.2.0)
+    - AFNetworking/Serialization (= 3.2.0)
+    - AFNetworking/UIKit (= 3.2.0)
+  - AFNetworking/NSURLSession (3.2.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.0)
+  - AFNetworking/Security (3.2.0)
+  - AFNetworking/Serialization (3.2.0)
+  - AFNetworking/UIKit (3.2.0):
+    - AFNetworking/NSURLSession
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - MBProgressHUD (1.1.0)
+  - MJExtension (3.0.13)
+  - YHNetWork (0.1.0):
+    - AFNetworking (~> 3.2.0)
+    - MBProgressHUD (~> 1.1.0)
+    - MJExtension (~> 3.0.13)
+    - YLJsonLib (~> 0.1.7)
+  - YLJsonLib (0.1.7)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - YHNetWork (from `../`)
+
+EXTERNAL SOURCES:
+  YHNetWork:
+    :path: ../
+
+SPEC CHECKSUMS:
+  AFNetworking: 8ac6017b94ea105479f7776e5288e48ae9c59bb4
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  MJExtension: 5932755f451458eefa24239358817f8d291240c7
+  YHNetWork: 3e1af943a81d9d606317ec578223229ed4a2ac12
+  YLJsonLib: 33f55d1aae8a701de15d4004f2c22c44111116eb
+
+PODFILE CHECKSUM: da6a0f5b30fb8a1d87fd3437803c5a3b959ae277
+
+COCOAPODS: 1.4.0

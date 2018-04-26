@@ -1,0 +1,6 @@
+framework module YLJsonLib {
+  umbrella header "YLJsonLib-umbrella.h"
+
+  export *
+  module * { export * }
+}

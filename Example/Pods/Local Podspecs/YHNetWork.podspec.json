@@ -1,0 +1,36 @@
+{
+  "name": "YHNetWork",
+  "version": "0.1.0",
+  "summary": "A short description of YHNetWork.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/2510479687@qq.com/YHNetWork",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "2510479687@qq.com": "2510479687@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/2510479687@qq.com/YHNetWork.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "YHNetWork/Classes/**/*",
+  "dependencies": {
+    "AFNetworking": [
+      "~> 3.2.0"
+    ],
+    "MJExtension": [
+      "~>3.0.13"
+    ],
+    "MBProgressHUD": [
+      "~>1.1.0"
+    ],
+    "YLJsonLib": [
+      "~>0.1.7"
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+framework module YHNetWork {
+  umbrella header "YHNetWork-umbrella.h"
+
+  export *
+  module * { export * }
+}
