@@ -22,7 +22,7 @@ pod 'YHNetWork'
 
 ## Author
 
-2510479687@qq.com, 2510479687@qq.com
+2510479687@qq.com
 
 ## License
 
